@@ -131,18 +131,36 @@ Now you are able to enjoy the switching from coin to coin with just <b>1 single 
 
 That’s it!
 
+
   
   
   
   
   
   
+  <h2>Running miner Examples</h2>
+  
+  CryptoDredge change the USERNAME to gpu0, gpu1 OR cpu
+------------------------
+
+set GPU_MAX_ALLOC_PERCENT=100
+@echo off
+title TurtleCoin (TRTL) HeroMiners Pool
+CryptoDredge.exe -o stratum+tcp://127.0.0.1:3306 -u gpu0 -p x -a chukwa2
+pause
+
+
+
+lolminer change the USERNAME to gpu0, gpu1 OR cpu
+------------------------
+
+lolMiner.exe --algo CR29-40 --pool 127.0.0.1:3306 --user gpu1 --pass x
+pause
   
   
   
   
-  
-  
+  </br>
   
   
   
